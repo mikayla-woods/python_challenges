@@ -40,21 +40,3 @@ longest_time()
 
 
 
-# Given a list of words in the singular form, 
-# return a set of those words in the plural form if they appear more than once 
-# in the list.
-
-
-#word = ["cow", "pig", "cow", "cow"]
-
-word = input("Enter your word(s) separated by a comma: ")
-list_word = word.split(",")
-print(list_word)
-
-words = []
-
-for i in word:
-    if i not in words:
-        words.append(i)
-    print(words)
-
